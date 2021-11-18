@@ -179,6 +179,7 @@ for (var i = 0 ; i <= 10; i++){
  return arreglo;  
 }
 
+
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
@@ -192,14 +193,21 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var contador = 1;
-  do {
-     numero = numero +5;
-     contador =  contador +1
-  }while (contador <= 8);
-  return numero;
-  
+//   var contador = 1;
+//   do {
+//      numero = numero +5;
+//      contador =  contador +1
+//   }while (contador <= 8);
+//   return numero;
+let contador=1;
+ do{
+  numero=numero + 5;
+  contador=contador +1;
+ }while(contador<=8);
+
+ return numero;
 }
+
   
 // No modificar nada debajo de esta línea
 // --------------------------------
